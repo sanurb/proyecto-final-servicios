@@ -26,9 +26,9 @@ graph LR
   lb -->|Proxy pass| web1
   lb -->|Proxy pass| web2
 
-  classDef client fill:#f9f,stroke:#333,stroke-width:4px;
-  classDef server fill:#75a89c,stroke:#333,stroke-width:4px;
-  classDef loadbalancer fill:#cfc,stroke:#333,stroke-width:4px;
+  classDef client fill:#a62a85,stroke:#333,stroke-width:4px;
+  classDef server fill:#ab573b,stroke:#333,stroke-width:4px;
+  classDef loadbalancer fill:#651ae4,stroke:#333,stroke-width:4px;
 
   class client1,client2,client3 client;
   class web1,web2 server;

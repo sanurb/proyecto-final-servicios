@@ -19,23 +19,23 @@ app.set("views", path.resolve(__dirname + "/views"));
 const users = [
   {
     id: 1,
-    nombre: "Felipe",
-    email: "felipe@email.com",
+    nombre: "Santiago",
+    email: "santiago@email.com",
   },
   {
     id: 2,
-    nombre: "Isabella",
-    email: "isabella@email.com",
+    nombre: "David",
+    email: "David@email.com",
   },
   {
     id: 3,
-    nombre: "Juan",
-    email: "juan@email.com",
+    nombre: "Rafael",
+    email: "rafa@email.com",
   },
   {
     id: 4,
-    nombre: "Didier",
-    email: "dicasva@email.com",
+    nombre: "Harold",
+    email: "harold@email.com",
   },
 ];
 
