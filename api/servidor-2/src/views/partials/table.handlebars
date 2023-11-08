@@ -1,0 +1,23 @@
+<table class="table table-hover table-bordered mt-4 display shadow-lg">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  {{#each users}}
+    <tbody>
+      <tr>
+        <th>{{this.id}}</th>
+        <th>{{this.nombre}}</th>
+        <th>{{this.email}}</th>
+        <th>
+          <a class="btn btn-warning" href="/users/{{this.id}}">See User</a>
+          <a class="btn btn-danger" href="/delete/{{this.id}}">Delete</a>
+        </th>
+      </tr>
+    </tbody>
+  {{/each}}
+</table>
